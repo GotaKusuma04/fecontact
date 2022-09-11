@@ -13,11 +13,14 @@
 </head>
 
 <body>
-    <header class="absolute top-0 left-0 z-10 flex w-full items-center bg-transparent bg-primary dark:bg-slate-900">
+    <header class="absolute top-0 left-0 z-10 flex w-full items-center bg-transparent bg-white dark:bg-slate-900">
         <div class="container">
             <div class="relative flex items-center justify-between">
                 <div class="px-5">
-                    <img href="#home" class="object-center py-4" src="dist/img/logo 2.png" alt="" />
+                    <!-- <img href="#home" class="object-center py-4" src="dist/img/logo 2.png" alt="" /> -->
+                    <a href="home.html"><svg class="fill-[#180202] dark:fill-white" 
+                        xmlns="http://www.w3.org/2000/svg" width="184" height="53" viewBox="0 0 144.715 36.212"><defs><style>.b{fill:#f78218;}.c{font-size:16px;font-family:Montserrat-SemiBold, Montserrat;font-weight:600;}</style></defs><g transform="translate(-32.944 -50.25)"><g transform="translate(32.944 50.25)"><path class="a" d="M413.36,181.221l-7.331,11.165,7.247,11.123h-8.848l-7.215-11.127,7.425-11.2Z" transform="translate(-361.727 -168.424)"/><path class="a" d="M147.83,175.512a12.179,12.179,0,0,0-.77,16.376l2.766-2.766a3.257,3.257,0,0,0,.88-3.312c-.019-.082-.032-.163-.048-.244a5.963,5.963,0,1,1,4.155,4.3l-.069-.014a3.257,3.257,0,0,0-3.312.88l-2.767,2.767a12.178,12.178,0,1,0-.836-17.983Z" transform="translate(-133.419 -160.089)"/><path class="b" d="M63.963,62.268,50.631,50.25,32.944,67.062l.115.1s5.1,3.024,8.468.454l9.218-8.762L52.351,60.3a14.426,14.426,0,0,1,11.613,1.971Z" transform="translate(-32.944 -50.25)"/></g><text class="c" transform="translate(91.659 74.321)"><tspan x="0" y="0">PROPERTI</tspan></text></g>
+                    </svg></a>
                 </div>
                 <div class="flex items-center px-4">
                     <button id="hamburger" name="hamburger" type="button" class="absolute right-4 block lg:hidden">
@@ -36,15 +39,15 @@
                                 <a href="product.html"
                                     class="mx-8 flex py-2 text-base text-secondary dark:text-white group-hover:text-primary">Product</a>
                             </li>
-                            <li class="portofolio">
+                            <li class="group">
                                 <a href="portofolio.html"
                                     class="mx-8 flex py-2 text-base text-secondary dark:text-white group-hover:text-primary">Portofolio</a>
                             </li>
-                            <li class="contact">
+                            <li class="group">
                                 <a href="index.html"
                                     class="mx-8 flex py-2 text-base text-secondary dark:text-white group-hover:text-primary">Contact</a>
                             </li>
-                            <li class="about">
+                            <li class="group">
                                 <a href="about.html"
                                     class="mx-8 flex py-2 text-base text-secondary dark:text-white group-hover:text-primary">About
                                     Us</a>
@@ -73,27 +76,20 @@
     </header>
 
    <!-- COROSEL -->
-   <section id="about" class="bg-primary dark:bg-slate-900 pt-16">
-        <div class="relative h-full">
-            <div class="relative flex flex-wrap">
-                <div class="w-full self-center px-0 ">                    
-                    <img data-aos="fade-left" data-aos-anchor-placement="center-bottom" data-aos-delay="300"
-                    src="dist/img/Rectangle 2.svg" alt="" class="w-full relative">                    
-                </div>
-                <span class="absolute">
-                    <img src="dist/img/Rectangle 79.svg" alt="" class="">
-                </span>
-                <span class="absolute py-4 w-full">
-                    <img data-aos="zoom-in-up" data-aos-delay="1000" src="dist/img/Rectangle 80.png"
-                        alt="" class="flex mx-auto  mt-4 lg:bg-inherit" />
-                </span>
-                <div class="absolute pt-36 lg:pt-36 mt-5 lg:w-full ">
-                    <h1 data-aos="fade-right" data-aos-anchor-placement="center-center" data-aos-delay="200" class="mb-4 pt-4 md:mb-6 text-4xl font-bold text-white lg:text-4xl text-center">
-                        About Us
-                    </h1>
-                    <h2 data-aos="fade-left" data-aos-anchor-placement="center-center" data-aos-delay="500"class="mb-16 text-sm font-light text-white lg:text-2xl lg:w-full text-center">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    </h2>
+   <section id="about" class="bg-white dark:bg-slate-900 pt-16">
+    <div class="container">
+        <div class="flex flex-wrap">
+            <div class="self-center px-4 lg:w-1/2">
+                <h1 data-aos="fade-up-right" data-aos-anchor-placement="center-center" data-aos-delay="200" class="mb-4 pt-4 text-2xl pl-12 lg:text-4xl font-extrabold text-primary dark:text-white text-left">
+                    About Us
+                </h1>
+                <h2 data-aos="fade-up-right" data-aos-anchor-placement="top-up" data-aos-delay="500"class="mb-5 pl-12 text-sm font-light text-black dark:text-white lg:text-2xl lg:w-full text-left text-justify">
+                    <span class="text-black font-semibold dark:text-primary">Ok Properti</span> menyediakan halaman About Us untuk menampilkan informasi mengenai website Ok Properti
+                </h2>
+            </div>               
+                <div class="w-auto self-end mt-12 lg:w-1/2 right-0">                    
+                    <img data-aos="fade-up-left" data-aos-anchor-placement="center-bottom" width="500px" data-aos-delay="300"
+                    src="dist/img/about-us-page-animate.svg" alt="" class="max-w-full mx-auto">      
                 </div>
             </div>
         </div>
@@ -108,9 +104,11 @@
         <div class="container">
             <div class="flex flex-wrap">
                 <div class="w-full self-start px-4 pt-8">
-                    <h1 data-aos="fade-right" data-aos-anchor-placement="center-center" data-aos-delay="300"
-                        class="mb-2 text-xl font-bold uppercase dark:text-white text-text1 text-left lg:text-3xl md:text-md lg:text-center">
+                    <h1 data-aos="zoom-in-up" data-aos-anchor-placement="center-bottom" data-aos-delay="300"
+                        class="mb-2 text-xl font-bold uppercase dark:text-white text-text1 text-center lg:text-3xl md:text-md lg:text-center">
                         TENTANG KAMI
+                        <hr data-aos="zoom-in-up" data-aos-anchor-placement="center-bottom" data-aos-delay="300" 
+                        class="my-2 border-primary flex mx-auto border-t-4 w-60 dark:gray-700 lg:my-2">
                     </h1>
                 </div>
 
@@ -127,12 +125,7 @@
                     <div data-aos="fade-left" data-aos-anchor-placement="center-bottom" data-aos-delay="500"
                         class="h-15 pt-16  lg:col-span-2 aspect-video ">
                         <p class=" dark:text-white  text-sm text-justify font-light text-text2 lg:text-2xl ">
-
-                            hadir untuk membantu menemukan. properti yang anda inginkan Lorem ipsum dolor, sit amet
-                            consectetur adipisicing elit.
-                            Maiores,
-                            consequuntur aliquid? Optio ducimus eum ipsum iure cupiditate et soluta nulla at? Repellat,
-                            similique? Distinctio pariatur, unde quo dolorum cupiditate ex!
+                            OK Properti hadir sebagai layanan jual-beli dan sewa-menyewa properti yang bertujuan membantu para pelaku jual-beli atau sewa-menyewa dengan fitur-fitur yang ditawarkan oleh OK Properti. Kami memiliki beragam portofolio yang membuat kami telah dipercayai sebagai salah satu layanan transaksi properti yang mudah, terpecaya, dan tercepat.
                         </p>
 
                     </div>
